@@ -4,15 +4,46 @@
 
 /* Changing the main font and background colour */
 
-body {
-	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+body {font-family: "open-sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+	background-color:black
+;
 }
+
+h1 {font-family: "bebas-neue", sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 100px;
+color: white
+}
+h2 {font-family: "bebas-neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 75px;
+color: white
+}
+h3 {font-family: "bebas-neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 50px;
+color: white
+}
+p {font-family: "open-sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: white
+}
+
+.bebas-neue {font-family: "bebas-neue", sans-serif;
+font-weight: 400;
+font-style: normal;}
+
 
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000000;
+	background-color: #00000;
 }
 
 /* Changing the background color for the navigation bar */
@@ -36,26 +67,28 @@ footer a:hover {
 
 /* Hero Section shadow */
 
-.white-shadow {
-	text-shadow: -.01em -.01em .01em white,
-		.02em .02em .02em white,
-		0 0 .2em white,
-		0 0 .5em white;
-}
- 
-/* button color */ 
-.btn {
-	background-color: #350f92
+.purple-shadow {
+	text-shadow: -.01em -.01em .01em #350f92
+		,.02em .02em .02em #350f92
+		,0 0 .2em #350f92
+		,0 0 .5em #350f92;
 }
 
-.btn {
-	border-color: #350f92
+.logo-size{ style: "width:500px;height:600px;"
 }
 
-.col-lg-4 {
-	background-color: #350f92 
+.black-text {color: black}
+
+.yellow-text{color: #fae34d
 }
-.col-lg-4 { 
-	color: white
+.purple-text{color:#350f92
 }
+.background-g {background-color: #424141
+}
+.background-p{background-color:#350f92
+}
+.background-y{background-color:#fae34d
+}
+
+
 
