@@ -15,20 +15,25 @@ h1 {font-family: "bebas-neue", sans-serif;
 font-weight: 600;
 font-style: normal;
 font-size: 100px;
+color: white
 }
 h2 {font-family: "bebas-neue", sans-serif;
 font-weight: 400;
 font-style: normal;
 font-size: 75px;
+color: white
 }
 h3 {font-family: "bebas-neue", sans-serif;
 font-weight: 400;
 font-style: normal;
 font-size: 50px;
+color: white
 }
 p {font-family: "open-sans", sans-serif;
 font-weight: 400;
-font-style: normal;}
+font-style: normal;
+color: white
+}
 
 .bebas-neue {font-family: "bebas-neue", sans-serif;
 font-weight: 400;
