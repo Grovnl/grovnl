@@ -25,10 +25,10 @@
   <body data-bs-spy="scroll" data-bs-target="#navbar-corporate" data-bs-smooth-scroll="true">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light background-p">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/buas-square.svg" width="40" alt="Breda University of Applied Sciences">
+        <a class="navbar-brand" href="#">
+          <img src="images/grov-logo.png" width="40" alt="Brand logo">  
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -36,10 +36,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active text-white fw-bold" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="corporate.html">Corporate</a>
+              <a class="nav-link text-white" href="example.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                UX Patterns
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="hero.html">Hero Section</a></li>
+                <li><a class="dropdown-item" href="carousel.html">Carousel</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
+                <li><a class="dropdown-item" href="cards.html">Cards</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="corporate.html">Corporate</a>
             </li>
           </ul>
         </div>
@@ -48,7 +63,7 @@
     <!-- End of navigation bar -->
 
     <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
-      <h1 class="fw-light">Morris stinkt 2&nbsp;</h1>
+      <h1 class="fw-light">Corporate&nbsp; Page</h1>
     </header>
 
     <main class="container-fluid container-xl">
@@ -107,7 +122,7 @@
               <tr class="bg-white">
                 <th scope="col">#</th>
                 <th scope="col">Student ID</th>
-              
+               
                 <th scope="col">Name and link of content</th>
               </tr>
             </thead>
@@ -124,24 +139,24 @@
                 <th scope="row">2.</th>
                 <td>220972</td>
                
-                <td>
-                  <a href="">CSS</a>
+                <td> CSS
+                  <a href=""></a>
                 </td>
               </tr>
               <tr>
                 <th scope="row">3.</th>
                 <td>222621</td>
                
-                <td>Justification page
-                  <a href="#"></a>
+                <td>
+                  <a href="#">Appendix page</a>
                 </td>
               </tr>
               <tr>
                 <th scope="row">4.</th>
                 <td>222437</td>
             
-                <td>Corporate page
-                  <a href="corporate.html"></a>
+                <td>
+                  <a href="corporate.html">Corporate page</a>
                 </td>
               </tr>
             </tbody>
@@ -154,23 +169,22 @@
           <p>Please provide a list of design elements alongside their justifications:</p>
           <ul>
             <li>
-              A colour scheme (with HTML colour codes, which must be consistent with your final website)
-              <em>&mdash; see the example below from the BUas brand book:</em>
-              <ul class="list-unstyled">
-                <li>
-                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #350f92;"></span>
-                  #350f92
-                  <em>&nbsp;</em>
-                </li>
-                <li>
-                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #fae34d ;"></span>
-                #fae34d<em>&nbsp;</em> 
-			    </li>
-			    <li>
-                <span class="border border-secondary rounded px-2 me-1" style="background-color: #424141 ;"></span>
-                #424141<em>&nbsp;</em> 
-				  </li>
-              </ul>
+              The color scheme <em>&nbsp;</em>
+<ul class="list-unstyled">
+            <li>
+              <span class="border border-secondary rounded px-2 me-1" style="background-color: #350f92;"></span>
+              #350f92
+              <em>&nbsp;</em>
+            </li>
+            <li>
+              <span class="border border-secondary rounded px-2 me-1" style="background-color: #fae34d ;"></span>
+              #fae34d<em>&nbsp;</em> 
+	        </li>
+		    <li>
+              <span class="border border-secondary rounded px-2 me-1" style="background-color: #424141 ;"></span>
+              #424141<em>&nbsp;</em> 
+		    </li>
+            </ul>
             </li>
             <li>Font choices</li>
             <li>User interface patterns (e.g. grids, carousels, menu organizations etc.)</li>
