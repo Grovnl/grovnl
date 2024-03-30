@@ -16,6 +16,10 @@ font-style: normal;
 font-size: 100px;
 color: white
 }
+
+.big{font-size: 150px;
+}
+
 h2 {font-family: "bebas-neue", sans-serif;
 font-weight: 400;
 font-style: normal;
@@ -103,6 +107,11 @@ footer a:hover {
 }
 .background-y{background-color:#fae34d
 }
+.background-b{background-color: black;
+}
 
+.mt-0 {
+  margin-top: 0 !important;
+}
 
 
